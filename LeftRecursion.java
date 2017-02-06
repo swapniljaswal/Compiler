@@ -87,7 +87,7 @@ public class LeftRecursion {
             
             for(int i=0;i<=production_counter;i++)
             {
-                //System.out.println("compiler.LeftRecursion.main()");
+                System.out.println("compiler.LeftRecursion.main()");
                 if(productions[i].substring(0, 1).equals(productions[i].substring(3, 4)))
                 {
                     System.out.println("Left recurrsion detected in "+"production "+(i+1));
